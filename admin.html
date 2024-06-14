@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin</title>
+    <link rel="stylesheet" href="css/admin.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="admin_page">
+        <h1>Admin</h1>
+        <form id="userForm">
+          <input
+            type="text" placeholder="Product title" id="title"  name="title">
+          <br />
+
+          <input
+            type="number" placeholder="Product price" id="price"  name="price" >
+          <br />
+
+          <input
+            type="text" placeholder="Product description" id="description"   name="description" >
+          <br />
+          <button id = "btnSubmit" type="submit">Submit</button>
+        </form>
+      </div>
+      <div id="userInfo">
+        <ul id="list"></ul>
+      </div>
+    </div>
+
+    <script src="js/admin.js"></script>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+*, 
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: rgb(208, 209, 215);
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.admin_page {
+  border: 1px solid #000;
+  border-radius: 30px;
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#price, #title, #description {
+  width: 250px;
+  height: 30px;
+  background-color: rgb(195, 197, 187);
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+button {
+  width: 250px;
+  padding: 5px 5px;
+  border: 1px solid #000;
+  border-radius: 20px;
+}
+#list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 30px;
+  margin-top: 20px;
+}
+#list li {
+  border: 1px solid #000;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
